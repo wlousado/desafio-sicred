@@ -1,0 +1,6 @@
+bootJar.enabled = false
+
+dependencies {
+    implementation project(":commons")
+    implementation 'org.mock-server:mockserver-spring-test-listener:5.15.0'
+}

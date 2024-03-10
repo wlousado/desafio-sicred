@@ -1,0 +1,10 @@
+plugins {
+    id "com.github.davidmc24.gradle.plugin.avro" version "1.6.0"
+}
+
+bootJar.enabled = false
+
+dependencies {
+    implementation project(":commons")
+    implementation project(":integration-cpf-validator")
+}

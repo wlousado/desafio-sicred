@@ -1,0 +1,8 @@
+bootJar.enabled = false
+
+dependencies {
+    implementation project(":commons")
+    implementation project(":impl")
+
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+}

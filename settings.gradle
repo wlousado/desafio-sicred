@@ -1,0 +1,6 @@
+rootProject.name = 'desafio-tec'
+include 'contract'
+include 'impl'
+include 'commons'
+include 'integration-cpf-validator'
+
